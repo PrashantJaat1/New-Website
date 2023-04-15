@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="prashant singh">
+    <meta name="discription" content="about your website">
+    <meta name="keyword" content="">
+
+    
+    <!--   This link for when we use icons in our web site     -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--   This link is use for when we want to any icon in Title bar      -->
+    <link rel="icon" href="images/title_logo.jpg" type="image/x-icon">
+   
+    <!--    Here We link our CSS file    -->
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <!--    Here is a media file link for responsive    -->
+    <link rel="stylesheet" href="media.css">
+
+    <!--    This is a Bootstrap 5  link    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <title>Web Site</title>
+</head>
+<body>
+    <!--    Navbar all Code here    -->
+    <!-- <nav>
+        <a href="#">
+            <img src="images/logo.png" alt="main_logo" class="logo">
+        </a>
+
+        <ul class="nav_ul">
+            <li>  <a href="#">Interiors</a>          </li>
+            <li>  <a href="#">Service</a>           </li>
+            <li>  <a href="#">Store</a>             </li>
+            <li>  <a href="#">Design Ideas</a>      </li>
+            <li>  <a href="#">Cites</a>             </li>
+        </ul>
+
+     </nav> -->
+
+     <!--    navbar use with the help of bootstrap5    -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <a href="#">
+          <img src="images/logo.png" alt="main_logo" class="logo">
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active text-dark fw-bold fs-5" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark" href="#">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-dark " href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Full Home</a></li>
+                <li><a class="dropdown-item" href="#">Only Room</a></li>
+                <li><a class="dropdown-item" href="#">Only Flat</a></li>
+                <li><a class="dropdown-item" href="#">Only kitchen</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+     <!--    Here is a Carosel Code    -->
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/main1.webp" class="h6-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5> -->
+              <p class="carosel_text">Want to know how much your modular kitchen will cost?</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/main2.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5> -->
+              <p class="carosel_text">Smart and efficient home interiors with superior quality materials</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/main3.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5> -->
+              <p class="carosel_text">Modular kitchens designed with science and sensibility</p>
+         
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--    Here we code card type div    -->
+      <div class="main container">
+        <h2>One-stop shop for all things interiors</h2>
+        <h4>Whether it's a magazine-like dream kitchen or your entire home, enjoy end-to-end solutions from design to installation.</h4>
+
+        <div class="flex">
+          <div class="card  pb-5">
+            <img src="images/card1.webp" alt="home_image"  class="image" width="100%" height="300px">
+            <div class="card_text container pt-4">
+              <h2>Moduler Interior</h2>
+              <p>chose high quality,budjet-friendly modular solution like kitchens,wardrobes,TV units,and more in your favourat colours,size,and designs.</p>
+              <button class="card_button">Let's tell you more <span class="arow"> &#8594;</span></button>
+            </div>
+
+          </div>
+
+          <div class="card pb-5 ">
+            <img src="images/card2.webp" alt="home_image"  class="image" width="100%" height="300px">
+            <div class="card_text container pt-4">
+              <h2>Full Home Interior</h2>
+              <p>Get the complete home interior experience with award-winning designers, service partners, and the best brands.</p>
+              <button class="card_button">Let's tell you more <span class="arow">&#8594;</span></button>
+            </div>
+
+          </div>
+        
+        </div>
+      
+      </div>
+
+      <!--    Second flex container video wala    -->
+      <div class="main2">
+        <div class="card1 me-5">
+          <h1>The Modular Journey - from Design to Installation</h1>
+          <h4>Let's take you on a tour of what happens behind the scenes. Want to know how we take great 
+            designs and turn them into the most durable and beautiful modular interiors you will ever see?</h4>
+        </div>
+
+        <div class="card1">
+          <video src="https://youtube.com/embed/XYHDt6FK830" height="350px" controls muted 
+          poster="images/video_img.webp"></video>
+        </div>
+
+      </div>
+
+     <!--    3 main div code here    -->
+      <div class="main3">
+        <div class="why_chose_us">
+          <div class="why">
+               <h1>Why chose us</h1>
+          </div>
+
+          <div>
+            <button class="button">BOOK A CONSULTANT</button>
+          </div>
+
+        </div>
+
+        <div class="ul_div">
+          <ul class="second_ul">
+            <li>
+              <div>
+                 <img src="images/li1.webp" alt="EMI_image">
+                 <p class="li_p">Easy EMIs</p>
+              </div>
+
+            </li>
+            <li>
+              <div>
+                 <img src="images/li2.png" alt="gauranty">
+                 <p class="li_p">45 day move-in guarantee</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="images/li3.webp" alt="image">
+                <p class="li_p">Flat 10-year warranty</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="images/li4.png" alt="image">
+                <p class="li_p">146 quality checks</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+ 
+       </div>
+
+       <!--    4th main div code Here    -->
+       <div class="main4">
+            <h1 class="superior">Superior technology for superior cabinets</h1>
+            <div class="dura_buld">
+               <div> 
+                <img src="images/div4_1.png" alt="imgage">
+                <p>Advanced connector mechanism for sturdy build</p>
+               </div>
+
+               <div>
+                <img src="images/div4_2.webp" alt="imgage">
+                <p>Ensures the panels are smooth and bubble-free.</p>
+
+               </div>
+               <div>
+                 <img src="images/div4_3.webp" alt="image">
+                 <p>Prevents moisture from entering the core, making it long-lasting.</p>
+               </div>
+               
+            </div>
+        </div>
+
+         <!--    All Slide Images Code here    -->
+        <div class="main5">
+          <div class="child1">
+            <div>
+              <h2 class="child1_h2">A little preview of Livspace homes</h2>
+              <p class="child1_p">Take a tour of the homes we've designed for our customers</p>
+            </div>
+
+            <div>
+              <button class="button">Get your Livspace Home</button>
+            </div>
+          </div>
+
+          <div class="child2">
+            <div class="child2_div">
+              <div class="slid">
+                <img src="images/slid1.webp" alt="image"  width="100%">
+                <div class="slid_child">
+                  <h3 class="slid_h3">Virant, complact home</h3>
+                  <h5 class="slid_h5">Mumbai</h5>
+                      
+                </div>
+              </div>
+
+              <div class="slid">
+                 <img src="images/slid2.webp" alt="image" width="100%">
+                 <div class="slid_child">
+                    <h3 class="slid_h3">Quirky, colourful 3BHK</h3>
+                    <h5 class="slid_h5">Bengaluru</h5>
+                 </div>
+              </div>
+
+              <div class="slid">
+                <img src="images/slid3.webp" alt="image" width="100%">
+                <div class="slid_child">
+                  <h3 class="slid_h3">Warm Wooden interior</h3>
+                  <h5 class="slid_h5">Hyderabad</h5>
+                </div>
+              </div>
+            </div>
+           </div>
+
+        </div>
+
+        <div class="main6">
+          <div class="main_child">
+            <h1>Find the price of your modular kitchen</h1>
+            <p>Tell us what you prefer and we'll do the math for you.</p>
+            <button class="button">CALCULATE NOW</button>
+          </div>
+
+          <div class="main_child">
+             <img src="images/main6.webp" alt="image" width="100%">
+          </div>
+        </div>
+
+        <div class="main7">
+          <ul class="main7_ul">
+            <li>
+              <div>
+                <img src="images/flex1.png" alt="image">
+                <p>6 homes delivered every hour*</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <img src="images/flex2.png" alt="image">
+                <p>3,500+ expert designers</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <img src="images/flex3.webp" alt="image">
+                <p>20 lac+ catalogue products</p>
+              </div>
+            </li>
+
+            <li>
+              <div>
+                <img src="images/flex4.png" alt="image">
+                <p>40+ cities & 4 countries</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <!--    Main8 div All code Here    -->
+        <div class="main8">
+          <h1>We'll let our clients do the talking</h1>
+          <p>Here's what they have to say</p>
+
+          <div class="main8_child">
+            <div class="main8_child_child">
+              <img src="images/main8_1.webp" alt="image" width="100%">
+              <div class="container pt-3 rohit">
+                 <p>Hats off to the entire team at Livspace. They finished the project ahead of time. They said 45 days but finished it much earlier.</p>
+                 <h5>Rohit Paul &  Shveta</h5>
+                 <p>Modular kitchen,Gurugram</p>
+              </div>
+            </div>
+
+
+            <div class="main8_child_child">
+              <img src="images/main8_2.webp" alt="image" width="100%">
+              <div class="container pt-3 rohit">
+                <p>Our experience with Livspace was nice thanks to the project managers. They worked so much on this project, and finished it on time.</p>
+                 <h5>Swati & Gourav</h5>
+                 <p>2 BHK, Bengalore</p>
+              </div>
+            </div>
+
+            <div class="main8_child_child">
+              <img src="images/main8_3.webp" alt="image" width="100%">
+              <div class="container pt-3 rohit">
+                <p>This house is a part of me. We reached out to Livspace and they designed the house that we really wanted.</p>
+                <h5>Puja Bhati</h5>
+                <p>2 BHK, Gurugram</p>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <!--    main9 div All code Here    -->
+        <div class="main9">
+          <h1>Our trophy cabinet</h1>
+          <ul class="main9_ul">
+            <li>
+                <img src="images/slid2_1.webp" alt="image" width="100%">
+                <p>Innovative Start-up</p>
+            </li>
+
+            <li>
+              <img src="images/slid2_2.png" alt="image" width="100%">
+              <p>World's Most Innovative Company</p>
+            </li>
+
+            <li>
+              <img src="images/slid2_3.png" alt="image" width="100%">
+              <p>Top 100 Global Companies</p>
+            </li>
+
+            <li>
+               <img src="images/slid2_4.webp" alt="image" width="100%">
+               <p>Best Interior Design Solutions Brand</p>
+            </li>
+          </ul>
+
+        </div>
+
+        <!--    main10 div All code Here    -->
+        <div class="main10 pt-5 pb-5">
+              <div class="main10_div"  >
+                  <h2>See. Touch. Experience.</h2>
+                  <p>Come to our Experience Centre and get a look and feel of what we do!</p>
+              </div>
+
+              <div class="main10_div" > 
+                  <img src="images/main10.webp" alt="image" width="100%">
+              </div>
+        </div>
+
+        <!--  main11 div All code Here With the help of bootstrap    -->
+        <div class="main11 p-5 mt-3 mb-3">
+
+          <h2>Stay updated with the latest design trends!</h2>
+          <p>Find everything from design fixes to expert tips on Livspace magazine</p>
+
+         <div class="card-group ">        
+ 
+          <div class="card me-4">
+            <img src="images/bootstrap1.webp" class="card-img-top " alt="image" >
+             <div class="card-body">
+             <h6 class="card-title">Vastu for South-Facing House: Tips and Remedies for a South-Facing House</h6>
+             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+             </div> 
+          </div>
+
+          <div class="card me-4">
+            <img src="images/bootstrap2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">East-Facing House Vastu Plan: Everything You Need to Know to Bring Good Luck in Your East-Facing House Plan</h6>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="images/bootstrap3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="card-title">12 Interesting Pooja Room Door Designs to Style Your Mandir With</h6>
+              
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+
+         </div>
+        </div> 
+
+        <!--    main12 div all code Here with Bootstrap5   -->
+        <div class="main12 p-5">
+          <h3>In the news</h3>
+
+          <ul class="main12_ul">
+            <li>
+              <img src="images/smale_image1.jpg" alt="image" width="100%">
+              <p class="mt-2">Livspace said it crossed the billion-dollar valuation mark after raising $180 million in a late-stage funding round led by KKR &amp; Co…</p>
+            </li>
+
+            <li>
+              <img src="images/smale_image2.jpg" alt="image" width="100%">
+             <p class="mt-2">
+              Livspace has joined the unicorn club after the online home décor startup backed by private equity firm TPG raised $180 mn at a valuation of over $1.2 bn…</p>
+            </li>
+
+            <li>
+              <img src="images/smale_image3.webp" alt="image" width="100%">
+              <p class="mt-2">
+								The 23,000 sq-ft Bengaluru centre, designed by FITCH Singapore, combines inspiration, information and technology</p>
+            </li>
+
+            <li>
+              <img src="images/smale_image4.png" alt="image" width="100%">
+             <p class="mt-2">
+              The company has also opened Experience Centres (ECs) spanning 1500 sq ft each in prime locations in all four cities.</p>
+            </li>
+
+          </ul>
+
+       </div>
+
+       <!--    main13 div All code Here    -->
+       <div class="main13">
+
+        <div class="main13_child">
+          <div class="center">
+            <h1 class="mb-4">Your dream home is just a click away</h1>
+            <button class="button">GET STARTED</button>
+          </div>
+        </div>
+       </div>
+
+       <!--    All Footer code Here    -->
+       <footer class="footer">
+
+        <div class="footer_div">
+          <img src="images/logo.png" alt="main_logo" width="250px">
+
+          <ul class="footer_ul">
+            <li>
+              <a class="link"  href="https://www.facebook.com/prashant.sorout.9" target="_blank">
+                <i class="fa fa-facebook-f" style="font-size:48px;color:liteblue"></i>
+              </a>
+            </li>
+            <li class="li2">
+              <a class="link"  href="https://www.instagram.com/" target="_blank">
+               <span><i class="fa fa-instagram" aria-hidden="true" style="font-size:48px;color:red" ></i></span>
+              </a>
+            </li>
+            <li>
+              <a  class="link" href="https://www.youtube.com/" target="_blank">
+                <i class="fa fa-youtube-play" style="font-size:48px;color:red"></i>
+              </a>
+            </li>
+           </ul>
+           <!-- <div>
+            <a href="https://play.google.com/store/apps/details?id=com.livspace.livspacehub" target="_blank" class="playstore" data-v-92f1cd2a=""><img src="/_nuxt/img/play-store.e7c32c7.png" alt="playStore" loading="lazy" data-v-92f1cd2a=""></a>
+           </div> -->
+        </div>
+
+        <div class="div2">
+          <h6 >OFFERINGS</h6>
+            <h6>Interior</h6>
+            <h6>Store</h6>
+            <h6>Commercial Interior</h6>
+
+        </div>
+
+        <div>
+          <h6>GET INSPIRED</h6>
+            <h6>Design Ideas</h6>
+            <h6>Magazine</h6>
+          
+        </div>
+
+        <div>
+          <h6>COMPANY</h6>
+          <h6>Refer a friend</h6>
+          <h6>How it Works</h6>
+          <h6>Careers </h6>
+          <h6>Polises</h6>
+          <h6>Terms and Condetions</h6>
+          <h6>About us </h6>
+        </div>
+
+        <div>
+          <h6>CONTACT US</h6>
+          <h5>CAll us</h5>
+          <h6>8813980758</h6>
+          <h5>Email id</h5>
+          <h6>soroutp224@gmail.com</h6>
+        </div>
+
+       </footer>
+
+
+
+
+
+
+
+
+
+  <!--    Here is a Bootstrap 5 JavaScript link    -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!--    Here is our main JavaScript file link    -->
+  <script src="main.js"></script>
+     
+</body>
+
+</html>

@@ -1,0 +1,420 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    border-bottom: 2px solid; 
+    width: 100%;
+    padding: 24px 80px;
+}
+
+/* @media only screen and { (max-width:500px)
+    nav{
+        display: block;
+    }
+}     */
+
+.logo{
+    height: 36px;
+}
+
+/* .nav_ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    width: 80%; 
+    /* border: 2px solid black; */
+   /* justify-content: center;
+    justify-content: space-around;
+   
+
+
+}
+
+.nav_ul li{
+    font-family: "Gilroy";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 38px;
+}
+
+.nav_ul a{
+    text-decoration: none;
+    color: black;
+    font-family: "Gilroy";
+}
+
+.nav_ul a:hover{
+    color:tomato;
+} */
+
+nav{
+    position:fixed
+}
+
+
+.nav-item{
+    /* margin: 4px; */
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.navbar-collapse{
+   margin-left: 30%;
+}
+
+.carosel_text{
+    color: #fff;
+    font-family: Gilroy;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    text-shadow: 1px 1px 4px black;
+}
+
+ .main{
+    padding: 80px 100px;
+} 
+
+.flex{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+     justify-content: space-between;
+
+}
+
+.card{
+    box-shadow: 0 2px 4px 0 rgb(65 48 62 / 15%);
+    margin: 20px;
+    width: 50%;
+}
+
+.card_button{
+    border: none;
+    color:tomato;
+    background-color: #fff;
+    
+}
+
+.arow{
+     font-size: x-large;
+    line-height: 1;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.main2{
+    display: flex;
+    background-color: #B2BABB;
+    padding: 50px 80px;
+    justify-content: space-between;
+}
+
+.card1{
+    width: 50%;
+}
+
+
+
+.main3{
+   padding: 5rem;
+   margin: auto;
+}
+
+.why_chose_us{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    border: none;
+    background-color: tomato;
+    color: #fff;
+    font-size: x-large;
+    font-weight: 400;
+    padding: 14px 20px;
+    border-radius:  22px;
+}
+
+.ul_div{
+    padding: 40px 60px;
+}
+
+.second_ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.second_ul li{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.li_p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+.main4{
+    width: 100%;
+    background-color: #B2BABB;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.superior{
+    color: #41303e;
+    color: var(--secondary-dark);
+    font-weight: 700;
+    font-family: Gilroy;
+}
+
+.dura_buld{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 70px;
+}
+
+.dura_buld p{
+    line-height: 60px;
+}
+
+.main5{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.child1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+    margin:auto;
+}
+
+.child1_h2{
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.child1_p{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.child2{
+    padding: 20px 10%;
+}
+
+.child2_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.slid{
+    width: 326.667px;
+    position: relative;
+    /* margin-right: 10px; */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.slid_child{
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+    width: 100%;
+   
+}
+
+.slid_h3,.slid_h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 4px black;
+}
+
+ .slid:hover{
+    transform: scale(1.1 );
+    transition: 1s;
+    box-shadow: -1px -1px 4px black;
+} 
+
+.main6{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+}
+
+.main_chaild{
+    width: 50%;
+}
+
+.main7{
+    padding: 30px 32px;
+}
+
+.main7_ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px 4rem;
+    /* border: 2px solid black; */
+}
+
+.main7_ul li{
+    width: 20%;
+    padding: 20px 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.main8{
+    padding: 50px 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+}
+
+.main8_child{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main8_child_child{
+    width: 400px;
+    box-shadow: 0 2px 4px 0 rgb(65 48 62 / 15%);
+}
+
+.rohit{
+    text-align: center;
+}
+
+.main9{
+    padding: 40px 80px;
+}
+
+.main9_ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 28px;
+}
+
+.main9_ul li{
+    padding: 10px;
+    width: 23%;
+    text-align: center;
+    box-shadow: 2px 2px 4px black;
+    /* border: 2px solid black; */
+}
+
+.main9_ul li p{
+    line-height: 60px;
+}
+
+.main10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.main10_div{
+    width: 40%;
+}
+
+.main12{
+    background-color: whitesmoke;
+}
+
+.main12_ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px; 
+    margin-bottom: 14px;
+    /* border: 2px solid black; */
+}
+
+.main12_ul li{
+    width: 25%; 
+    padding: 20px;
+    text-align: center;
+    margin-left: 1rem; 
+    margin-right: 1rem; 
+    background-color: #fff;
+    box-shadow: 1px 1px 2px black;
+}
+
+.main13{
+    width: 100%; 
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    background-image: url(images/background_image.webp);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+.main13_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.center{
+    text-align: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #41303e;
+    width: 100%;
+    height: 400px;
+    padding: 80px 6%;
+    /* padding-top: 80px; */
+}
+
+.footer_ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    line-height: 8;
+}
+
+.footer_ul li a{
+    padding: 8px;
+}
+/* .footer_ul li i:hover{
+    color: #cb2027;
+}
+
+This code is not working dono tarika sa b 
+
+.link:hover{
+    color:red;
+} */
+.div2{
+    line-height: 10;
+}
+
+.footer div h6,h5{
+    color: #fff;
+}
+
+
+
